@@ -4,9 +4,10 @@ nav{
     padding-left: 100px;
 }
 .navbar-brand{
+
     font-size: 40px !important;
 }
-a{
+a.wh{
     color: white !important;
 }
 
@@ -16,5 +17,31 @@ a{
 
 #footer{
     background-color: black;
-    color: white;
 }
+
+.temp{
+padding-top: 14%;
+}
+.imgh{
+    background-image: url('./images/img2.png');
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+.listitem{
+    margin-top: 15px;
+    font-size: 27px;
+}
+
+
+  a.link1:hover{
+    color: white !important ;
+  }
+  a.link1{
+    color: yellow;
+  }
+  .temp .listitem a.link1:hover {
+    color: yellow;
+  }
+  
+
